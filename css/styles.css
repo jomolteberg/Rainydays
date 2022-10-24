@@ -1,4 +1,8 @@
-* {
+/*  
+ -Is the page scaleable?
+ */
+
+li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -6,48 +10,146 @@ body {
   margin: 0px 70px;
 }
 
-/* header navbar */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header navbar 
+Comment: 
+-How to make the Rainy days h1 always stay centered
+-Look at the fonts
+- How do i make the header go full wide for the dropshadow effect, while my nav 
+still looking good? */
+
+header {
+  margin: 0px -70px;
+}
 
 .flex-wrapper__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-flow: row;
+  max-height: 144px;
+  max-width: 1920px;
+  width: 100%;
+  box-shadow: 0px 4px 0px rgba(197, 193, 193, 0.16);
 }
 
 .flex-item__nav-left {
   gap: 1rem;
   list-style: none;
   padding: 0px;
-  display: inline;
+  display: inline-flex;
   order: 1;
- 
+  flex: 1;
+  font-size: 28px;
+  padding-left: 70px;
 }
 
 .flex-item__nav-center {
   order: 2;
+  flex: 2;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 .flex-item__nav-right {
   order: 3;
-  gap: 1rem;
+  gap: 1.5rem;
   list-style: none;
-  padding: 0px;
-  display: inline;
+  display: inline-flex;
+  flex: 1;
+  justify-content: right;
+  padding-right: 70px;
+  font-size: 28px;
+  padding-top: 5px;
 }
 
 nav a {
   font-weight: bold;
 }
 
-
-/* Home page */
+/* Home page 
+Comment: */
 
 .logo {
   background-image: url(../images/chris-henry-ddUn9B1MSbo-unsplash.jpg);
   background-size: cover;
-  min-width: 1780px;
+  max-width: 1765px;
   min-height: 1104px;
-  margin: 0px 70px 52px 0px;
+  margin: 4px 0px 52px 0px;
   background-position: center;
+}
+
+.flex-item__nav-bars,
+#menu-checkbox {
+  display: none;
+}
+
+
+
+
+
+/* iPhone ! */
+
+@media (max-width: 600px) {
+  header {
+    position: relative;
+    margin: 0px 15px;
+  }
+
+  body {
+    margin: 0px;
+  }
+  #menu-checkbox:checked ~ .flex-item__nav-left {
+    display: block;
+  }
+
+  #menu-checkbox,
+  .flex-item__nav-left {
+    display: none;
+    padding: 10px 20px;
+  }
+
+  .flex-wrapper__nav {
+    box-shadow: none;
+  }
+
+  .flex-item__nav-bars {
+    padding-left: 15px;
+    padding-top: 10px;
+    display: inline;
+    font-size: 1.5em;
+    flex: 1;
+  }
+
+  .flex-item__nav-left {
+    padding: 0px 0px 0px 15px;
+    display: none;
+
+    font-size: 20px;
+  }
+
+  .flex-item__nav-center {
+    font-size: 28px;
+  }
+
+  .flex-item__nav-right {
+    padding: 0px 15px 0px 0px;
+    font-size: 1.5rem;
+    gap: 0.5em;
+    padding-top: 10px;
+  }
+
+  .logo {
+    width: 100%;
+    min-height: 600px;
+    margin: 0px 0px 5px 0px;
+    background-position: center;
+    position: relative;
+  }
 }
