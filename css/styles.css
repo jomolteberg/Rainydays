@@ -8,6 +8,9 @@ li {
 
 body {
   margin: 0px 70px;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 a {
@@ -15,12 +18,31 @@ a {
   color: black;
 }
 
+/* footer
+How to make the footer 100% wide??
+*/
+
+.flex-wrapper__footer {
+  background-color: #146c82;
+  display: flex;
+  height: 133px;
+
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.flex-item__footer-a {
+  color: white;
+  font-size: 28px;
+}
+
 /* header navbar 
 Comment: 
 -How to make the Rainy days h1 always stay centered
 -Look at the fonts
-- How do i make the header go full wide for the dropshadow effect, while my nav 
-still looking good? */
+ */
 
 header {
   margin: 0px -70px;
@@ -76,7 +98,7 @@ nav a {
 /* Home page 
 Comment: */
 
-.logo {
+.image__logo-background {
   background-image: url(../images/chris-henry-ddUn9B1MSbo-unsplash.jpg);
   background-size: cover;
   max-width: 1765px;
@@ -85,14 +107,20 @@ Comment: */
   background-position: center;
 }
 
+.image__shop-section {
+  background-image: url(../images/person\ in\ orange\ hooded\ jacket\ carrying\ bag\ looking\ at\ mountains\ coate.jpg);
+  background-size: cover;
+  max-width: 1765px;
+  min-height: 1104px;
+  margin: 4px 0px 52px 0px;
+  background-position: center;
+  mix-blend-mode: overlay;
+}
+
 .flex-item__nav-bars,
 #menu-checkbox {
   display: none;
 }
-
-
-
-
 
 /* iPhone ! */
 
@@ -107,8 +135,20 @@ Comment: */
   }
   #menu-checkbox:checked ~ .flex-item__nav-left {
     display: block;
+    background-color: #146c82;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    top: 100%;
+    z-index: 1;
+    padding: 10px 10px;
+    margin: -12px 0px 0px 10px;
   }
-
+  nav li a {
+    color: white;
+    padding: 10px 10px 5px 0px;
+    display: inline-block;
+  }
   #menu-checkbox,
   .flex-item__nav-left {
     display: none;
@@ -145,7 +185,7 @@ Comment: */
     padding-top: 10px;
   }
 
-  .logo {
+  .image__logo-background {
     width: 100%;
     min-height: 600px;
     margin: 0px 0px 5px 0px;
