@@ -1,4 +1,5 @@
 @import "../css/imports/links.css";
+@import "../css/imports/variables.css";
 
 
 /*  
@@ -13,11 +14,12 @@ Global section
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  font-size: 3.125rem;
+  font-size: 3.125rem; 
 }
 
 body {
-  margin: 0px 70px;
+  margin: 0px auto;
+  max-width: 1765px;
   min-height: 100vh;
   /* display: flex;
   flex-direction: column; */
@@ -30,9 +32,19 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: var(--color-main) ;
+
 }
 
 /* header navbar 
