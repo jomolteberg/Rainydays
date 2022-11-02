@@ -12,9 +12,7 @@ Global section
 
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 3.125rem; 
+  font: var(--text-heading);
 }
 
 body {
@@ -23,18 +21,28 @@ body {
   min-height: 100vh;
   /* display: flex;
   flex-direction: column; */
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.75rem;
-  font-weight: bold;
+  font: var(--text-paragraph);
+  overflow-x: hidden;
+
+
+}
+
+header,
+footer {
+  margin: 0px -70px;
+}
+
+p, header, footer {
+  font: var(--text-paragraph);
 }
 
 nav a {
   font-weight: bold;
 }
 
-nav a:hover {
+/* nav a:hover {
   text-decoration: underline;
-}
+} */
 
 a {
   text-decoration: none;
@@ -53,9 +61,7 @@ Comment:
 -Look at the fonts
  */
 
-header {
-  margin: 0px -70px;
-}
+
 
 .flex-wrapper__nav {
   display: flex;
@@ -75,7 +81,6 @@ header {
   display: inline-flex;
   order: 1;
   flex: 1;
-  font-size: 28px;
   padding-left: 70px;
 }
 
@@ -95,7 +100,6 @@ header {
   flex: 1;
   justify-content: right;
   padding-right: 70px;
-  font-size: 28px;
   padding-top: 5px;
 }
 
@@ -110,6 +114,11 @@ header {
 How to make the footer 100% wide??
 */
 
+footer a {
+  text-decoration: underline;
+  text-decoration-color: white ;
+}
+
 .flex-wrapper__footer {
   background-color: #146c82;
   display: flex;
@@ -123,5 +132,5 @@ How to make the footer 100% wide??
 
 .flex-item__footer-a {
   color: white;
-  font-size: 28px;
+ 
 }
