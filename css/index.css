@@ -1,19 +1,25 @@
 
 .image__logo-background {
-    background-image: url(../images/Home\ page\ logo.jpg);
+    background: url(../images/Home\ page\ logo.jpg) no-repeat;
     background-size: cover;
-    max-width: 1765px;
-    min-height: 1104px;
+    max-width: 1780px;
+    width: 100%;
+    min-height: 1146px;
     margin: 4px 0px 52px 0px;
     background-position: center;
+    
   }
   
   .image__shop-section {
-    background-image: url(../images/person\ in\ orange\ hooded\ jacket\ carrying\ bag\ looking\ at\ mountains\ coate.jpg);
+    background: url(../images/person\ in\ orange\ hooded\ jacket\ carrying\ bag\ looking\ at\ mountains\ coate.jpg) no-repeat;
     background-size: cover;
-    max-width: 1765px;
-    min-height: 1104px;
+    max-width: 1780px;
+    width: 100%;
+    min-height: 1146px;
     margin: 4px 0px 52px 0px;
     background-position: center;
     mix-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    
   }

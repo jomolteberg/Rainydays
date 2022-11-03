@@ -1,30 +1,28 @@
 @import "../css/imports/links.css";
 @import "../css/imports/variables.css";
 
-
 /*  
 Global section
  -Is the page scaleable?
  */
 
-
-
-
+html {
+  box-sizing: border-box;
+}
 
 h1 {
   font: var(--text-heading);
 }
 
 body {
-  margin: 0px auto;
+  margin: 0px 70px;
   max-width: 1765px;
   min-height: 100vh;
   /* display: flex;
   flex-direction: column; */
   font: var(--text-paragraph);
   overflow-x: hidden;
-
-
+  
 }
 
 header,
@@ -32,7 +30,9 @@ footer {
   margin: 0px -70px;
 }
 
-p, header, footer {
+p,
+header,
+footer {
   font: var(--text-paragraph);
 }
 
@@ -51,8 +51,7 @@ a {
 
 .active {
   text-decoration: underline;
-  text-decoration-color: var(--color-main) ;
-
+  text-decoration-color: var(--color-main);
 }
 
 /* header navbar 
@@ -60,8 +59,6 @@ Comment:
 -How to make the Rainy days h1 always stay centered
 -Look at the fonts
  */
-
-
 
 .flex-wrapper__nav {
   display: flex;
@@ -89,7 +86,6 @@ Comment:
   flex: 2;
   text-align: center;
   text-transform: uppercase;
-
 }
 
 .flex-item__nav-right {
@@ -103,8 +99,6 @@ Comment:
   padding-top: 5px;
 }
 
-
-
 .flex-item__nav-bars,
 #menu-checkbox {
   display: none;
@@ -116,7 +110,7 @@ How to make the footer 100% wide??
 
 footer a {
   text-decoration: underline;
-  text-decoration-color: white ;
+  text-decoration-color: white;
 }
 
 .flex-wrapper__footer {
@@ -132,5 +126,4 @@ footer a {
 
 .flex-item__footer-a {
   color: white;
- 
 }
