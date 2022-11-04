@@ -18,11 +18,8 @@ body {
   margin: 0px 70px;
   max-width: 1765px;
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: column; */
   font: var(--text-paragraph);
-  overflow-x: hidden;
-  
+ 
 }
 
 header,

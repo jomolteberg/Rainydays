@@ -19,7 +19,9 @@
     margin: 4px 0px 52px 0px;
     background-position: center;
     mix-blend-mode: overlay;
+
     display: flex;
     justify-content: center;
+    gap: 11rem;
     
   }
