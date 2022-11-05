@@ -1,0 +1,16 @@
+.flex__wrapper-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    max-width: 1920px;
+   
+  
+    
+}
+
+.flex__item-product {
+    display: flex;
+    flex-direction: column;
+   
+}
