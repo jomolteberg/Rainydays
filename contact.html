@@ -36,14 +36,23 @@
       </nav>
     </header>
     <main>
+      <section class="contact-text">
+      <h1>We would love<br>to hear from<br> you!</h1>
+      <h2>Contact</h2>
+    </section>
       <section class="flex-wrapper__contact">
-        <div class="flex-item__contact-text">
-          <h1>Contact</h1>
-          <p>We would love to hear from you!</p>
-        </div>
-        <div class="flex-item__form-field">
-          <button class="cta">Submit</button>
-        </div>
+        <form action="">
+          <label for="first-name"> First name</label>
+          <input type="text" name="first-name" id="first-name" />
+          <label for="last-name"> Last name</label>
+          <input type="text" name="last-name" id="last-name" />
+          <label for="email"> Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="phone"> Phone number</label>
+          <input type="tel" name="phone" id="phone" />
+          <label for="message"> Message</label>
+          <textarea name="message" id="message" cols="40" rows="5"></textarea>
+        </form>
       </section>
     </main>
     <footer>
