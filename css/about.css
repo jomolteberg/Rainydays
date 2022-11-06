@@ -6,7 +6,14 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 4rem;
+  gap: 5rem;
+  margin: 3rem auto;
+
+}
+
+.flex-wrapper__about .cta {
+  align-self: center;
+  margin: 2rem auto 1rem;
 }
 
 .flex-item__about-text {
@@ -16,9 +23,8 @@ h1 {
   align-self: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   position: relative;
-  top: 70px;
+  top: 50px;
 }
 
 .flex-item__about-text h1 {
@@ -28,7 +34,6 @@ h1 {
 .flex-item__about-img {
   flex: 1;
   align-self: center;
-  max-width: 1480px;
-  width: 100%;
-  max-height: 1224px;
+  
+ 
 }

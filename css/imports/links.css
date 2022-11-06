@@ -6,9 +6,8 @@
     color: var(--color-main);
     text-align: center;
     font: var(--text-paragraph);
-    margin: 75px;
-    position: relative;
-    top: 240px;
+  
+    
     display: inline-flex;
     align-items: center;
     justify-content: center;

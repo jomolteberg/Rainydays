@@ -1,16 +1,32 @@
+
+.shop__text {
+    text-align: center;
+}
+
 .flex__wrapper-products {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    position: relative;
-    max-width: 1920px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+    margin: 5rem;
    
-  
-    
 }
 
 .flex__item-product {
     display: flex;
     flex-direction: column;
-   
+    border: black 2px solid;
+    gap: 1rem;
+  
+}
+
+.flex__item-product img {
+    flex: 3;
+}
+
+.flex__item-product p {
+    flex: 1;
+    text-align: center;
 }
