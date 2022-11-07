@@ -85,6 +85,7 @@ img {
   text-transform: uppercase;
   align-self: center;
   font: var(--text-heading);
+  font-weight: bold;
 }
 
 .flex-item__nav-right {
