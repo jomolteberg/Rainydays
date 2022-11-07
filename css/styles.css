@@ -1,11 +1,7 @@
 @import "../css/imports/links.css";
 @import "../css/imports/variables.css";
 
-/*  
-Global section
- -Is the page scaleable?
- */
-
+/* Global section*/
 
 h1,
 h2 {
@@ -18,10 +14,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
- 
 }
-
-
 
 p,
 header,
@@ -32,10 +25,6 @@ footer {
 nav a {
   font-weight: bold;
 }
-
-/* nav a:hover {
-  text-decoration: underline;
-} */
 
 a {
   text-decoration: none;
@@ -51,10 +40,11 @@ img {
   text-decoration-color: var(--color-main);
 }
 
-/* header navbar 
+::placeholder {
+  color: var(--color-placeholder);
+}
 
-
- */
+/* header navbar */
 
 .flex-wrapper__nav {
   display: flex;
@@ -104,9 +94,7 @@ img {
   display: none;
 }
 
-/* footer
-
-*/
+/* footer */
 
 footer a {
   text-decoration: underline;
@@ -122,7 +110,6 @@ footer a {
   align-items: center;
   gap: 0.5em;
   flex-direction: column;
-
 }
 
 .flex-item__footer-a {
@@ -136,8 +123,3 @@ footer a {
 }
 
 
-
-
-::placeholder {
-  color: var(--color-placeholder);
-  }
