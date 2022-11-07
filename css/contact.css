@@ -49,7 +49,7 @@ textarea {
 
 h1, h2 {
     font: var(--text-heading);
-    font-size: 28px;
+    /* font-size: 28px; */
     color: var(--color-main);
 }
 form {

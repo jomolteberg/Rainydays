@@ -1,0 +1,34 @@
+
+.flex__wrapper-product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 50px auto;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+.flex__wrapper-product-page p {
+    text-align: left;
+    text-align-last: left;
+}
+
+.flex__wrapper-product-page .cta {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.select-size {
+    display: flex;
+}
+
+.grid__wrapper-explore {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-bottom: 3rem;
+    margin: 3rem 5rem;
+    column-gap: 2rem;
+}

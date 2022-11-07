@@ -51,7 +51,6 @@
    
       display: none;
   
-    
     }
   
     .flex-item__nav-center {
@@ -106,4 +105,27 @@
     
     
   }
+
+  /* Shop page */
+
+  .flex__wrapper-products {
+    grid-template-columns: repeat(1,1fr);
+    margin: 2rem;
+  }
+
+  .filter_sort-by {
+    margin: 0 25px;
+    font-size: 1.75rem;
+  }
+
+  .shop__text-desktop {
+    display: none;
+  }
+
+  .shop__text-mobile {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+
   }

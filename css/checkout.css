@@ -1,0 +1,42 @@
+.flex__wrapper-checkout-page {
+    display: flex;
+    gap: 30rem;
+    margin: 100px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.flex__wrapper-checkout-cart {
+    display: flex;
+    flex-direction: column;
+    border: var(--color-main) 2px solid;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+main a {
+    color: var(--color-main);
+}
+
+.flex__item-checkout-product {
+    padding: 50px;
+}
+
+.flex__item-payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-chevron-left {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.cta-submit {
+    background-color: var(--color-main);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rainydays | Contact</title>
+    <title>Rainydays | Product page</title>
     <link rel="stylesheet" href="../rainydays/css/styles.css" />
-    <link rel="stylesheet" href="../rainydays/css/contact.css" />
+    <link rel="stylesheet" href="../rainydays/css/checkout.css" />
     <link rel="stylesheet" href="../rainydays/css/media.css" />
     <script
       src="https://kit.fontawesome.com/d272d399a5.js"
@@ -25,7 +25,11 @@
         </h1>
         <ul class="flex-item__nav-left">
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./shop.html">Shop <i class="fa-solid fa-angle-down"></i></a></li>
+          <li>
+            <a href="./shop.html"
+              >Shop <i class="fa-solid fa-angle-down"></i
+            ></a>
+          </li>
           <li><a href="./about.html">About</a></li>
           <li><a href="./contact.html" class="active">Contact</a></li>
         </ul>
@@ -36,24 +40,25 @@
       </nav>
     </header>
     <main>
-      <section class="contact-text">
-      <h1>We would love<br>to hear from<br> you!</h1>
-      <h2>Contact</h2>
-    </section>
-      <section class="flex-wrapper__contact">
-        <form action="">
-          <label for="first-name"> First name</label>
-          <input type="text" name="first-name" id="first-name" />
-          <label for="last-name"> Last name</label>
-          <input type="text" name="last-name" id="last-name" />
-          <label for="email"> Email</label>
-          <input type="email" name="email" id="email" />
-          <label for="phone"> Phone number</label>
-          <input type="tel" name="phone" id="phone" />
-          <label for="message"> Message</label>
-          <textarea name="message" id="message" cols="40" rows="5"></textarea>
-        </form>
-      </section>
+        <a href="./product.html"
+        ><p><i class="fa-solid fa-chevron-left"></i>Back</p></a>
+      <container class="flex__wrapper-checkout-page">
+       
+        <section class="flex__wrapper-checkout-cart">
+         
+          <div class="flex__item-checkout-product">
+            <img src="./images/RainyDays_Jacket5.jpg" alt="Grey jacket" />
+            <p>Grey jacket</p>
+            <p>Price: $249</p>
+          </div>
+        </section>
+        <section class="flex__item-payment">
+          <h1>Payment details</h1>
+          <form action=""></form>
+          <a href="./success.html" class="cta cta-submit">Submit order <i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </section>
+      </container>
     </main>
     <footer>
       <section class="flex-wrapper__footer">

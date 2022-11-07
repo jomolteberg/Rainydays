@@ -14,3 +14,16 @@
     
     
 }
+
+.cta-size {
+    border: black 2px solid;
+    padding: 10px 10px;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
