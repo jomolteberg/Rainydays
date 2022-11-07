@@ -1,6 +1,4 @@
-h1 {
-  color: var(--color-main);
-}
+
 
 .flex-wrapper__about {
   display: flex;
@@ -9,6 +7,14 @@ h1 {
   gap: 5rem;
   margin: 3rem auto;
 
+}
+
+.flex-wrapper__about h1 {
+ 
+    color: var(--color-main);
+    text-decoration: underline;
+    font-weight: bold;
+ 
 }
 
 .flex-wrapper__about .about-cta {

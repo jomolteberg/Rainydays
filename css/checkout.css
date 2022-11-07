@@ -1,36 +1,70 @@
+
+.checkout__heading {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin-top: 0;
+    background-color: var(--color-main);
+    position: relative;
+    top: 0px;
+    height: 100px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+
+
 .flex__wrapper-checkout-page {
     display: flex;
-    gap: 15rem;
+    
     margin: 100px auto;
-    max-width: 1200px;
+    max-width: 1500px;
     width: 100%;
+    gap: 10rem;
+   
+   
+   
 }
+
+
 
 .flex__wrapper-checkout-cart {
     display: flex;
     flex-direction: column;
-    border: var(--color-main) 2px solid;
+ 
     max-width: 800px;
     width: 100%;
     text-align: center;
-    justify-content: space-around;
+    flex: 3;
+   
 }
 
 main a {
     color: var(--color-main);
 }
 
+.button__back {
+    position: relative;
+    top: 72px;
+    left: -34%;
+}
+
 .flex__item-checkout-product {
     padding: 50px;
+    border: var(--color-main) 2px solid;
+    margin: 50px;
+   
 }
 
 .flex__item-payment {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    align-items: flex-start;
+   
     margin: 0 auto 3rem;
     text-align: left;
+    flex: 3;
+    font: var(--text-paragraph);
     
 }
 
@@ -38,6 +72,7 @@ main a {
     display: flex;
     flex-direction: column;
     flex: 1;
+    
 }
 
 .fa-chevron-left {
@@ -45,17 +80,26 @@ main a {
     margin-right: 10px;
 }
 
+.fa-chevron-right {
+    margin-left: 20px;
+}
+
 .cta-submit {
     background-color: var(--color-main);
     color: white;
     font-weight: bold;
-    width: 100%;
+    width: 65%;
+    flex-direction: row;
+    padding: 10px auto;
+    
 }
 
 .payment-options {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 10px auto;
+    margin-bottom: 20px;
 }
 
 .credit-card {
@@ -63,6 +107,7 @@ main a {
     flex-direction: row;
     align-items: center;
     gap: 5px;
+    padding: 20px 0;
 }
 
 .fa-apple-pay,
@@ -87,16 +132,23 @@ input {
     font: var(--text-paragraph);
     margin-bottom: 10px;
     margin-top: 5px;
+    padding: 15px 20px;
+    font-size: 1.2rem;
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 2.75rem;
+    font-weight: bold;
+    
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+   
 }
 
-h1, h2, p {
-    font-weight: bold;
+h1, h2 {
+    margin-bottom: 5px;
 }
+

@@ -4,7 +4,7 @@
 .shop__text {
     text-align: center;
     font-weight: bold;
-    color: var(--color-main);
+    color: black;
 }
 
 .shop__text-mobile {
