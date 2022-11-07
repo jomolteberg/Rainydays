@@ -150,6 +150,13 @@
 
 .cta-submit {
   align-self: center;
+
+}
+.checkbox {
+    height: 25px;
+    width: 25px;
+}
+
 }
 /* Success page */
 
@@ -173,4 +180,3 @@
   display: none;
 }
 
- 

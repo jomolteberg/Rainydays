@@ -152,3 +152,11 @@ h1, h2 {
     margin-bottom: 5px;
 }
 
+.checkbox__billing-shipping {
+    display: inline
+}
+
+.checkbox {
+    height: 30px;
+    width: 25px;
+}

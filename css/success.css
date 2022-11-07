@@ -1,14 +1,14 @@
 
 
 .main__success {
-    background-image: url(../images/success\ bg\ image.png);
+    background-image: url(../images/success\ bg\ image\ resize.jpg);
     min-height: 1080px;
     max-width: 1920px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    margin: 1rem auto;
+    margin: 2rem auto;
  
 
 }   
@@ -23,7 +23,6 @@
     text-align: center;
     position: relative;
     justify-content: center;
-   
     margin: 100px auto;
 } 
 
