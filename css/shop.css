@@ -56,3 +56,8 @@
 .flex__item-product-info > * {
     margin: 10px;
 }
+
+.filter_sort-by h3 {
+    font-size: 1.5rem;
+    margin: 20px;
+}
