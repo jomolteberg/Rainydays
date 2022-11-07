@@ -1,6 +1,6 @@
 .flex__wrapper-checkout-page {
     display: flex;
-    gap: 30rem;
+    gap: 15rem;
     margin: 100px auto;
     max-width: 1200px;
     width: 100%;
@@ -27,6 +27,17 @@ main a {
 .flex__item-payment {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto 3rem;
+    text-align: left;
+    
+}
+
+.flex__item-payment > * {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .fa-chevron-left {
@@ -39,4 +50,53 @@ main a {
     color: white;
     font-weight: bold;
     width: 100%;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.credit-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.fa-apple-pay,
+.fa-google-pay {
+    font-size: 1.75rem;
+    margin: 0 0.5rem;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+}
+
+.fa-cc-mastercard,
+.fa-cc-visa {
+   
+    font-size: 1.75rem;
+   margin: 0.3rem;
+}
+
+input {
+    border: 1px var(--color-main) solid;
+    border-radius: 3px;
+    font: var(--text-paragraph);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1, h2, p {
+    font-weight: bold;
 }

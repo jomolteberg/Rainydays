@@ -54,17 +54,63 @@
         </section>
         <section class="flex__item-payment">
           <h1>Payment details</h1>
-          <form action=""></form>
+          <form action="">
+            <label for="first-name"> First name</label>
+          <input type="text" name="first-name" id="first-name" />
+          <label for="last-name"> Last name</label>
+          <input type="text" name="last-name" id="last-name" />
+          </form>
+          <h2>Shipping adress</h2>
+          <form action="">
+          <label for="street-adress"> Street adress</label>
+          <input type="text" name="street-adress" id="street-adress" />
+          <label for="postal-code"> Postal code</label>
+          <input type="text" name="postal-code" id="postal-code" />
+          <label for="city"> City</label>
+          <input type="text" name="city" id="city" />
+        </form>
+        <p>My billing adress is the same as my shipping adress.</p>
+        <h2>Payment method</h2>
+        <form action="">
+            <div class="credit-card">
+                <label for="credit-card"> Credit card</label>
+                <input type="radio" name="credit-card" id="credit-card" /> <i class="fa-brands fa-cc-mastercard"></i> <i class="fa-brands fa-cc-visa"></i>
+            </div>
+            
+            <label for="name-on-card"> Name on card</label>
+            <input type="text" name="name-on-card" id="name-on-card" />
+            <label for="card-number"> Card number</label>
+            <input type="text" name="card-number" id="card-number" />
+            <label for="expiration-date"> Expiration date</label>
+            <input type="text" name="expiration-date" id="expiration-date" />
+            <label for="security-code"> Security code</label>
+            <input type="text" name="security-code" id="security-code" />
+        </form>
+        <div class="payment-options">
+            <h2>Other payment options:</h2>
+            <i class="fa-brands fa-apple-pay"></i>
+            <i class="fa-brands fa-google-pay"></i>
+        </div>
+       
           <a href="./success.html" class="cta cta-submit">Submit order <i class="fa-solid fa-chevron-right"></i>
             </a>
         </section>
       </container>
     </main>
     <footer>
-      <section class="flex-wrapper__footer">
-        <a href="./about.html" class="flex-item__footer-a">About</a>
-        <a href="./contact.html" class="flex-item__footer-a">Contact</a>
-      </section>
+        <section class="flex-wrapper__footer">
+            <div class="footer-media">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+             </div>
+            <div class="footer-links">
+              <a href="./about.html" class="flex-item__footer-a">About</a>
+              <a href="./contact.html" class="flex-item__footer-a">Contact</a> 
+            </div>
+          
+        
+          </section>
     </footer>
   </body>
 </html>

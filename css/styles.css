@@ -118,10 +118,17 @@ footer a {
   margin-top: auto;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 0.5em;
+  flex-direction: column;
 
 }
 
 .flex-item__footer-a {
+  color: white;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram {
   color: white;
 }

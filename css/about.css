@@ -11,10 +11,12 @@ h1 {
 
 }
 
-.flex-wrapper__about .cta {
+.flex-wrapper__about .about-cta {
   align-self: center;
   margin: 2rem auto 1rem;
 }
+
+
 
 .flex-item__about-text {
   width: 100%;

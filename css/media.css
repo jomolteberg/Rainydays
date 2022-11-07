@@ -128,4 +128,30 @@
     font-size: 2.5rem;
   }
 
+
+/* Checkout page */
+
+.flex__wrapper-checkout-page {
+  flex-direction: column;
+}
+
+.flex__wrapper-checkout-cart {
+  border: hidden;
+}
+
+
+
+/* Success page */
+
+.main__success {
+  background-image: url(../images/success\ bg\ image\ resize.jpg);
+  margin: 0px auto;
+    height: 100%;
+    min-height: 1200px;
+    width: auto;
+}
+
+.success-text {
+  margin: 250px auto;
+}
   }
