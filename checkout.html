@@ -42,7 +42,7 @@
       </header>
     <main>
      <h1 class="checkout__heading">Checkout</h1>
-      <container class="flex__wrapper-checkout-page">
+      <div class="flex__wrapper-checkout-page">
         <section class="flex__wrapper-checkout-cart">
             <a href="./product.html" class="button__back"><p><i class="fa-solid fa-chevron-left"></i>Back</p></a>
           <div class="flex__item-checkout-product">
@@ -52,7 +52,7 @@
           </div>
         </section>
         <section class="flex__item-payment">
-          <h1>Payment details</h1>
+          <h2>Payment details</h2>
           <form action="">
             <label for="first-name"> First name</label>
             <input
@@ -69,7 +69,7 @@
               id="last-name"
             />
           </form>
-          <h2>Shipping adress</h2>
+          <h3>Shipping adress</h3>
           <form method="POST">
             <label for="street-adress"> Street adress</label>
             <input type="text" placeholder="Street adress" name="street-adress" id="street-adress" />
@@ -82,7 +82,7 @@
             <input type="checkbox" class="checkbox" id="billing-shipping" name="billing-shipping">
             <label for="billing-shipping">My billing adress is the same as my shipping adress.</label>
           </div> 
-          <h2>Payment method</h2>
+          <h3>Payment method</h3>
           <form method="POST">
             <div class="credit-card">
               <label for="credit-card"> Credit card</label>
@@ -101,7 +101,7 @@
             <input type="text" placeholder="123" name="security-code" id="security-code" />
           </form>
           <div class="payment-options">
-            <h2>Other payment options:</h2>
+            <h3>Other payment options:</h3>
             <i class="fa-brands fa-apple-pay"></i>
             <i class="fa-brands fa-google-pay"></i>
           </div>
@@ -110,7 +110,7 @@
             >Submit order <i class="fa-solid fa-chevron-right"></i>
           </a>
         </section>
-      </container>
+    </div>
     </main>
     <footer>
         <div class="flex-wrapper__footer">
