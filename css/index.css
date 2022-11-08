@@ -26,15 +26,10 @@
   align-self: center;
   background-size: cover;
   background-position: center;
-
-  /* min-height: 1146px; */
   min-height: 800px;
   max-width: 100%;
   width: 100%;
 
-  /* max-width: 1780px;
-    height: auto;
-     */
 }
 
 .image__shop-section .cta {
