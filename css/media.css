@@ -37,6 +37,8 @@
   
     .flex-wrapper__nav {
       box-shadow: none;
+      margin: 0;
+      min-height: 90px;
     }
   
     .flex-item__nav-bars {
@@ -54,8 +56,12 @@
     }
   
     .flex-item__nav-center {
-      font-size: 2.3rem;
-      flex: 2;
+      flex: 3;
+    }
+
+    .flex-item__nav-center-header {
+      font-size: 1.75rem;
+      
     }
   
     .flex-item__nav-right {
@@ -67,6 +73,12 @@
   
     .cta {
       margin: 40px;
+      font-size: 1rem;
+      min-height: 20px;
+      height: 20px;
+      border: var(--color-main) 2px solid;
+      max-width: 90px;
+      padding: 10px 10px;
     }
 
     /* Home page */
@@ -86,7 +98,7 @@
     .image__logo-background,
     .image__shop-section {
       width: 100%;
-      min-height: 600px;
+      min-height: 300px;
       margin: 0px 0px 5px 0px;
       background-position: center;
       position: relative;
@@ -99,6 +111,11 @@
     .image__shop-section .cta {
       position: relative;
       top: 70px;
+      border: white 2px solid;
+      width: 100%;
+      color: white;
+      
+    
     }
   .flex-wrapper__about {
     margin: auto;

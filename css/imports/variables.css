@@ -2,6 +2,8 @@
     
     --color-main: #146c82;
     --color-placeholder: rgb(20, 108, 130, .26);
-    --text-heading: 3.125rem bold Georgia, 'Times New Roman', Times, serif;
-    --text-paragraph: 1.75rem bold arial, Helvetica, sans-serif;
+   --text-heading: 'Libre Baskerville', serif;
+    --text-paragraph: 'Poppins', sans-serif;
+   
 }
+

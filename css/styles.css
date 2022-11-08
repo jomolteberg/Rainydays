@@ -1,12 +1,31 @@
 @import "../css/imports/links.css";
 @import "../css/imports/variables.css";
 
+
 /* Global section*/
 
-h1,
-h2 {
-  font: var(--text-heading);
+p,
+header,
+footer,
+label,
+.cta,
+h4,
+h5 {
+  font-family: var(--text-paragraph);
+  font-size: 1.75rem;
 }
+
+
+h1,
+h2,
+h3,
+.flex-item__nav-center-header {
+  font-family: var(--text-heading);
+  font-size: 3.75rem;
+  font-weight: 400;
+}
+
+
 
 body {
   margin: 0;
@@ -16,11 +35,6 @@ body {
   flex-direction: column;
 }
 
-p,
-header,
-footer {
-  font: var(--text-paragraph);
-}
 
 nav a {
   font-weight: bold;
@@ -58,6 +72,10 @@ img {
   margin-bottom: 10px;
 }
 
+.flex-wrapper__nav > * {
+  align-items: center;
+}
+
 .flex-item__nav-left {
   gap: 1rem;
   list-style: none;
@@ -67,6 +85,12 @@ img {
   flex: 1;
   padding-left: 5rem;
 }
+.flex-item__nav-left-icon {
+  display: flex;
+  align-items: center;
+}
+
+
 
 .flex-item__nav-center {
   order: 2;
@@ -74,8 +98,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   align-self: center;
-  font: var(--text-heading);
-  font-weight: bold;
+ 
 }
 
 .flex-item__nav-right {
@@ -93,6 +116,8 @@ img {
 #menu-checkbox {
   display: none;
 }
+
+
 
 /* footer */
 
