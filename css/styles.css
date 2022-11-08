@@ -141,6 +141,10 @@ footer a {
   color: white;
 }
 
+.footer-links {
+  margin-left: 23px;
+}
+
 .fa-twitter,
 .fa-facebook,
 .fa-instagram {
