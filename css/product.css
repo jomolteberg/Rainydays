@@ -32,3 +32,12 @@
     margin: 3rem 5rem;
     column-gap: 2rem;
 }
+
+.grid__wrapper-explore > * {
+    box-shadow:  rgba(20, 108, 130, 0.2) -5px 5px; 
+}
+
+.explore-text {
+    margin: 0 5rem;
+    text-decoration: underline;
+}
