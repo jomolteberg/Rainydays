@@ -54,6 +54,8 @@ img {
   text-decoration-color: var(--color-main);
 }
 
+
+
 ::placeholder {
   color: var(--color-placeholder);
 }

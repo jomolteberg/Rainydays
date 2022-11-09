@@ -14,20 +14,20 @@
     }
 
     #menu-checkbox:checked ~ .flex-item__nav-left {
-      display: block;
-      background-color: #146c82;
+      display: flex;
+      background-color: white;
       position: absolute;
-      left: 0;
-      flex-direction: column;
+      flex-direction: row;
       top: 100%;
       z-index: 1;
       padding: 10px 10px;
-      margin: -12px 0px 0px 10px;
+      margin: -30px auto 10px;
+      justify-content: space-between;
     }
     nav li a {
-      color: white;
+      color: black;
       padding: 10px 10px 5px 0px;
-      display: inline-block;
+      display: flex;
     }
     #menu-checkbox,
     .flex-item__nav-left {
@@ -35,6 +35,8 @@
       padding: 10px 20px;
     }
   
+  
+
     .flex-wrapper__nav {
       box-shadow: none;
       margin: 0;
@@ -49,10 +51,15 @@
       flex: 1;
     }
   
-    .flex-item__nav-left {
+    .flex-item__nav-left,
+    .arrow-down {
    
       display: none;
   
+    }
+
+    .active {
+      text-decoration: none;
     }
   
     .flex-item__nav-center {
@@ -87,7 +94,7 @@
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      margin: 1rem 0;
+      margin: 1rem 0 0;
   }
 
   .image__logo-background {
