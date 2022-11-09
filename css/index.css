@@ -13,7 +13,6 @@
 
 .image__shop-section {
   background: url(../images/shop-section-bg.jpg) no-repeat;
-  mix-blend-mode: overlay;
   display: flex;
   justify-content: center;
   gap: 11rem;
