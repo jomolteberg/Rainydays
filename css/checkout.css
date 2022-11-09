@@ -45,8 +45,8 @@ main a {
 
 .button__back {
     position: relative;
-    top: 72px;
-    left: -34%;
+    top: 71px;
+    left: -33%;
 }
 
 .flex__item-checkout-product {
@@ -76,8 +76,9 @@ main a {
 }
 
 .fa-chevron-left {
-    font-size: 1.5rem;
-    margin-right: 10px;
+    font-size: 1.1rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .fa-chevron-right {

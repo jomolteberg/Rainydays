@@ -34,7 +34,8 @@
 }
 
 .grid__wrapper-explore > * {
-    box-shadow:  rgba(20, 108, 130, 0.2) -5px 5px; 
+    box-shadow: rgba(20, 108, 130, 0.16) 0px 3px 6px,
+    rgba(20, 108, 130, 0.23) 0px 3px 6px;
 }
 
 .explore-text {
