@@ -109,14 +109,15 @@
 
     .image__shop-section {
       gap: 0;
+      
     }
 
     .image__shop-section .cta {
       position: relative;
       top: 70px;
-      border: white 3px solid;
+   
       width: 100%;
-      color: white;
+     
       
     
     }
