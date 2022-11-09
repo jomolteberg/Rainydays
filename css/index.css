@@ -12,8 +12,7 @@
 }
 
 .image__shop-section {
-  background: url(../images/person\ in\ orange\ hooded\ jacket\ carrying\ bag\ looking\ at\ mountains\ coate.jpg)
-    no-repeat;
+  background: url(../images/shop-section-bg.jpg) no-repeat;
   mix-blend-mode: overlay;
   display: flex;
   justify-content: center;
