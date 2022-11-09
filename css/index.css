@@ -12,7 +12,7 @@
 }
 
 .image__shop-section {
-  background: url(../images/photo\ of\ green\ mountains\ with\ fog.jpg) no-repeat;
+  /* background: url(../images/photo\ of\ green\ mountains\ with\ fog.jpg) no-repeat; */
   mix-blend-mode: overlay;
   display: flex;
   justify-content: center;
