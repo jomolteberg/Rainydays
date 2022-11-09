@@ -124,9 +124,9 @@
 
   /* Shop page */
 
-  .flex__wrapper-products {
+  .grid__wrapper-products {
     grid-template-columns: repeat(2, 1fr);
-    margin: 2rem 0;
+    margin: 2rem 2rem;
   }
 
   .filter_sort-by {
