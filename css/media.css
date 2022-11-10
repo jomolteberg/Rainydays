@@ -14,20 +14,18 @@
     }
 
     #menu-checkbox:checked ~ .flex-item__nav-left {
-      display: flex;
-      background-color: white;
+      display: block;
+      background-color: var(--color-main);
       position: absolute;
-      flex-direction: row;
+      flex-direction: column;
       top: 100%;
       z-index: 1;
       padding: 10px 10px;
-      margin: -30px auto 10px;
-      justify-content: center;
-      max-width: 350px;
-      width: 100%;
+      margin: -12px 0px 0px 10px;
+     
     }
     nav li a {
-      color: black;
+      color: white;
       padding: 10px 10px 5px 0px;
       display: flex;
     }
