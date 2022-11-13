@@ -1,3 +1,7 @@
+h1 {
+  display: none;
+}
+
 .flex__wrapper-index {
   display: flex;
   flex-direction: column;
