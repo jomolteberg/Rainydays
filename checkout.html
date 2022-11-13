@@ -9,9 +9,12 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainydays | Product page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/checkout.css" />
     <link rel="stylesheet" href="./css/media.css" />
@@ -22,35 +25,38 @@
   </head>
   <body>
     <header>
-        <nav class="flex-wrapper__nav">
-          <input type="checkbox" id="menu-checkbox" />
-          <label for="menu-checkbox" class="flex-item__nav-bars"
-            ><i class="fas fa-bars"></i
-          ></label>
-           <div class="flex-item__nav-center">
-            <a href="./index.html" class="flex-item__nav-center-header">Rainy days</a>
-          </div>
-          
-          <ul class="flex-item__nav-left">
-            <li><a href="./index.html" class="active">Home</a></li>
-            <li>
-              <a href="./shop.html" class="flex-item__nav-left-icon"
-              >Shop </a>
-            </li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-          <div class="flex-item__nav-right">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <a href="./checkout.html"><i class="fa-solid fa-bag-shopping"></i></a>
-          </div>
-        </nav>
-      </header>
+      <nav class="flex-wrapper__nav">
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="flex-item__nav-bars"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <div class="flex-item__nav-center">
+          <a href="./index.html" class="flex-item__nav-center-header"
+            >Rainy days</a
+          >
+        </div>
+
+        <ul class="flex-item__nav-left">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li>
+            <a href="./shop.html" class="flex-item__nav-left-icon">Shop </a>
+          </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="flex-item__nav-right">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="./checkout.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+      </nav>
+    </header>
     <main>
-     <h1 class="checkout__heading">Checkout</h1>
+      <h1 class="checkout__heading">Checkout</h1>
       <div class="flex__wrapper-checkout-page">
         <div class="flex__wrapper-checkout-cart">
-            <a href="./product.html" class="button__back"><p><i class="fa-solid fa-chevron-left"></i>Back</p></a>
+          <a href="./product.html" class="button__back"
+            ><p><i class="fa-solid fa-chevron-left"></i>Back</p></a
+          >
           <div class="flex__item-checkout-product">
             <img src="./images/RainyDays_Jacket5.jpg" alt="Grey jacket" />
             <p>Grey jacket</p>
@@ -78,16 +84,33 @@
           <h3>Shipping adress</h3>
           <form method="POST">
             <label for="street-adress"> Street adress</label>
-            <input type="text" placeholder="Street adress" name="street-adress" id="street-adress" />
+            <input
+              type="text"
+              placeholder="Street adress"
+              name="street-adress"
+              id="street-adress"
+            />
             <label for="postal-code"> Postal code</label>
-            <input type="text" placeholder="Postal code" name="postal-code" id="postal-code" />
+            <input
+              type="text"
+              placeholder="Postal code"
+              name="postal-code"
+              id="postal-code"
+            />
             <label for="city"> City</label>
             <input type="text" placeholder="City" name="city" id="city" />
           </form>
           <div class="checkbox__billing-shipping">
-            <input type="checkbox" class="checkbox" id="billing-shipping" name="billing-shipping">
-            <label for="billing-shipping">My billing adress is the same as my shipping adress.</label>
-          </div> 
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="billing-shipping"
+              name="billing-shipping"
+            />
+            <label for="billing-shipping"
+              >My billing adress is the same as my shipping adress.</label
+            >
+          </div>
           <h3>Payment method</h3>
           <form method="POST">
             <div class="credit-card">
@@ -98,13 +121,33 @@
             </div>
 
             <label for="name-on-card"> Name on card</label>
-            <input type="text" placeholder="Your name" name="name-on-card" id="name-on-card" />
+            <input
+              type="text"
+              placeholder="Your name"
+              name="name-on-card"
+              id="name-on-card"
+            />
             <label for="card-number"> Card number</label>
-            <input type="text" placeholder="1111 2222 3333 4444" name="card-number" id="card-number" />
+            <input
+              type="text"
+              placeholder="1111 2222 3333 4444"
+              name="card-number"
+              id="card-number"
+            />
             <label for="expiration-date"> Expiration date</label>
-            <input type="text" placeholder="Expiration date" name="expiration-date" id="expiration-date" />
+            <input
+              type="text"
+              placeholder="Expiration date"
+              name="expiration-date"
+              id="expiration-date"
+            />
             <label for="security-code"> Security code</label>
-            <input type="text" placeholder="123" name="security-code" id="security-code" />
+            <input
+              type="text"
+              placeholder="123"
+              name="security-code"
+              id="security-code"
+            />
           </form>
           <div class="payment-options">
             <h3>Other payment options:</h3>
@@ -116,20 +159,20 @@
             >Submit order <i class="fa-solid fa-chevron-right"></i>
           </a>
         </section>
-    </div>
+      </div>
     </main>
     <footer>
-        <div class="flex-wrapper__footer">
-          <div class="footer-media">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-          </div>
-          <div class="footer-links">
-            <a href="./about.html" class="flex-item__footer-a">About</a>
-            <a href="./contact.html" class="flex-item__footer-a">Contact</a>
-          </div>
+      <div class="flex-wrapper__footer">
+        <div class="footer-media">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
         </div>
-      </footer>
+        <div class="footer-links">
+          <a href="./about.html" class="flex-item__footer-a">About</a>
+          <a href="./contact.html" class="flex-item__footer-a">Contact</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

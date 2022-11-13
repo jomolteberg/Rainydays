@@ -1,28 +1,21 @@
-
-
 .flex-wrapper__about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
   margin: 3rem auto 0 auto;
-
 }
 
 .flex-wrapper__about h1 {
- 
-    color: var(--color-main);
-    text-decoration: underline;
-    font-weight: bold;
- 
+  color: var(--color-main);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .flex-wrapper__about .about-cta {
   align-self: center;
   margin: 2rem auto 2rem;
 }
-
-
 
 .flex-item__about-text {
   width: 100%;
@@ -32,7 +25,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  
 }
 
 .flex-item__about-text h1 {
@@ -40,15 +32,14 @@
 }
 
 .flex-item__about-img {
-    flex: 1;
-    display: flex;
-    align-self: center;
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
-    max-width: 100%;
-    width: 80%;
-    justify-content: center;
-    margin-bottom: 3rem;
- 
+  flex: 1;
+  display: flex;
+  align-self: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  max-width: 100%;
+  width: 80%;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
